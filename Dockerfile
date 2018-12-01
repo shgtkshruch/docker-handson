@@ -1,6 +1,6 @@
 FROM ruby:alpine
 
-RUN apk add --no-cache bash tzdata libxml2-dev libxslt-dev sqlite sqlite-dev nodejs
+RUN apk add --no-cache bash tzdata libxml2-dev libxslt-dev sqlite sqlite-dev nodejs postgresql-dev
 
 WORKDIR /temple
 
